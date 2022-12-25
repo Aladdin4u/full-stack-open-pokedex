@@ -16,4 +16,8 @@ jobs:
     steps:
       - name: Now it is
         run: |
-          echo --date=STRING
+          date
+    steps:
+      - name: Directory content
+        run: |
+          ls -l
