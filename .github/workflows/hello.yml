@@ -13,3 +13,7 @@ jobs:
       - name: say hello
         run: |
           echo "Hello world"
+    steps:
+      - name: Now it is
+        run: |
+          echo --date=STRING
